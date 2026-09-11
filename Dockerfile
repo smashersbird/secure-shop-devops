@@ -9,10 +9,10 @@ USER imagebuilder
 EXPOSE 8070
 
 # Copy the JAR file to the /usr/app directory
-COPY target/shopping-cart*.jar /usr/app/
+COPY target/shopping-cart-0.0.1-SNAPSHOT.jar /usr/app/
 
 # Set the working directory to /usr/app
 WORKDIR /usr/app
 
 # Run the application using a non-root user
-CMD ["java", "-jar", "shopping-cart*.jar"]
+CMD ["java", "-jar", "shopping-cart-0.0.1-SNAPSHOT.jar"]
