@@ -16,3 +16,4 @@ WORKDIR /usr/app
 
 # Run the application using a non-root user
 CMD ["java", "-jar", "shopping-cart-0.0.1-SNAPSHOT.jar"]
+# dockerfile is working
